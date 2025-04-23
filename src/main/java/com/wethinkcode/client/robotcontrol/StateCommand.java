@@ -1,7 +1,6 @@
 package com.wethinkcode.client.robotcontrol;
 
 import java.util.Arrays;
-
 import java.util.List;
 
 public class StateCommand {
