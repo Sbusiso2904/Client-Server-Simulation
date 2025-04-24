@@ -26,7 +26,6 @@ public class StateCommand {
     public int getX() {
         return x;
     }
-
     public int getY() {
         return y;
     }
@@ -36,11 +35,9 @@ public class StateCommand {
     public int getShots(){
         return shots;
     }
-
     public String getDirection() {
         return direction;
     }
-
     public void setPosition(int x, int y) {
         this.x = x;
         this.y = y;
@@ -63,6 +60,9 @@ public class StateCommand {
                 x, y, direction
         );
     }
+    // implement shield and shots the robots consist
+    //sheild must update the status of the robot when shot
+    // shot must have rounds of weapon the robot has.
 
     @Override
     public String toString() {
