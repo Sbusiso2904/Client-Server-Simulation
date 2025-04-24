@@ -6,6 +6,8 @@ import java.util.List;
 public class StateCommand {
     private int x;
     private int y;
+    private int sheilds;
+    private int shots;
     private String direction;
     private static final List<String> V_DIRECTIONS = Arrays.asList(
             "north", "south", "east", "west"
@@ -27,6 +29,12 @@ public class StateCommand {
 
     public int getY() {
         return y;
+    }
+    public int getSheilds(){
+        return sheilds;
+    }
+    public int getShots(){
+        return shots;
     }
 
     public String getDirection() {
